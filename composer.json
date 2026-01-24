@@ -31,7 +31,8 @@
         "pestphp/pest-plugin-laravel": "^4.0",
         "phpstan/extension-installer": "^1.4",
         "phpstan/phpstan-deprecation-rules": "^2.0",
-        "phpstan/phpstan-phpunit": "^2.0"
+        "phpstan/phpstan-phpunit": "^2.0",
+        "phpunit/phpunit": "^11.0 || ^12.3.4"
     },
     "autoload": {
         "psr-4": {
@@ -46,6 +47,10 @@
             "BinaryCats\\Shoutout\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
+    },
+    "suggest": {
+        "binary-cats/laravel-mailgun-webhooks": "Handle Mailgun webhooks in your Laravel application",
+        "binary-cats/laravel-rbac": "Enum-backed RBAC extension of spatie/laravel-permission"
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
