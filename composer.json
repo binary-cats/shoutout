@@ -48,6 +48,10 @@
             "Workbench\\App\\": "workbench/app/"
         }
     },
+    "suggest": {
+        "binary-cats/laravel-mailgun-webhooks": "Handle Mailgun webhooks in your Laravel application",
+        "binary-cats/laravel-rbac": "Enum-backed RBAC extension of spatie/laravel-permission"
+    },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
