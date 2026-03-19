@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace BinaryCats\Shoutout\Tests;
 
+use BinaryCats\Shoutout\Facades\Shoutout;
 use BinaryCats\Shoutout\ShoutoutServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -21,7 +22,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageAliases($app): array
     {
         return [
-            'Shoutout' => \BinaryCats\Shoutout\Facades\Shoutout::class,
+            'Shoutout' => Shoutout::class,
         ];
     }
 

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static string danger()
  * @method static string error()
  *
- * @see \BinaryCats\Shoutout\Shoutout
+ * @see ShoutoutInstance
  */
 class Shoutout extends Facade
 {
